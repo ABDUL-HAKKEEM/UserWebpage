@@ -1,0 +1,57 @@
+/* Your custom CSS styles */
+
+/* Background and text color for the body */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+#double-color-text {
+    background: linear-gradient(90deg, #562e70, #67f82e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.carousel-item img {
+    max-height: 350px; /* Adjust the maximum height as needed */
+    width: auto;
+    margin: 0 auto; /* Center the images horizontally */
+}
+/* Style for the navigation links */
+.navbar-nav .nav-item {
+    background-color: rgb(226, 57, 226); /* Box background color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: rgb(133, 232, 250); /* Hover background color */
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff; /* Text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Container background and padding */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+/* Heading color */
+h1 {
+    color: #ff5733;
+    text-align: left;
+}

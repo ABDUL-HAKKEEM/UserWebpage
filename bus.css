@@ -1,0 +1,25 @@
+/* Reset some default styles and set a background color */
+body {
+
+    color: #0f0b0b;
+    background-image: url('html\ bg.jpg');
+    background-repeat: no-repeat;
+   background: fixed;
+   background-size: 100% 100%;
+
+}
+
+/* Style the header */
+
+button{
+    color: blue;
+}
+
+/* Style the navigation menu */
+
+
+/* Style the main content */
+
+
+
+

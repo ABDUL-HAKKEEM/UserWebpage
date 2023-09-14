@@ -1,0 +1,45 @@
+/* Custom CSS for styling Bootstrap cards and layout */
+.card {
+    background-color: #fff3cd; /* Set the background color to light yellow */
+    border: 1px solid #e0e0e0;
+    
+        height: 100%; /* Set a fixed height for all cards */
+    /* Add a subtle border to cards */
+}
+body{
+    background-color: rgb(194, 250, 91);
+}
+
+.container {
+    margin-top: 20px; /* Add space at the top of the container */
+}
+
+h1 {
+    color: #333; /* Set the heading color */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Increase the card title font size */
+    font-weight: bold; /* Make card titles bold */
+}
+
+.card-text {
+    font-size: 1.1rem; /* Increase the card text font size */
+}
+
+/* Add spacing between rows of cards */
+.row:not(:last-child) {
+    margin-bottom: 20px;
+}
+/* Custom CSS for styling Bootstrap cards and layout */
+.box {
+    font-family: 'Raleway', sans-serif;
+    max-width: auto;
+    max-height: auto; /* Set a maximum width for the boxes */
+    margin-right: auto; /* Add spacing between boxes */
+    margin-bottom: auto; /* Add spacing below each row of boxes */
+}
+
+.box .card {
+    background-color: #fff3cd; /* Set the background color to light yellow */
+}
